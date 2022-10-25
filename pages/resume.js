@@ -17,17 +17,17 @@ const resume = () => {
       <div className="max-w-[940px] mx-auto p-2 pt-[120px]">
         <h2 className="text-center">Resume</h2>
         <div className="bg-[#d0d4d6] my-4 p-4 w-full flex justify-between items-center">
-          <h2 className="text-center">Clint Briley</h2>
+          <h2 className="text-center">Moataz Muhammed</h2>
           <div className="flex">
             <a
-              href="https://www.linkedin.com/in/clint-briley-50056920a/"
+              href="https://www.linkedin.com/in/moataz-muhammed-0040882a/"
               target="_blank"
               rel="noreferrer"
             >
               <FaLinkedinIn size={20} style={{ marginRight: "1rem" }} />
             </a>
             <a
-              href="https://github.com/fireclint"
+              href="https://github.com/Moataz0"
               target="_blank"
               rel="noreferrer"
             >
@@ -150,8 +150,8 @@ const resume = () => {
         {/* Experience */}
         <div className="py-6">
           <p className="italic">
-            <span className="font-bold">CITY OF SHERMAN, TX</span>
-            <span className="px-2">|</span>Sherman, TX
+            <span className="font-bold">CITY OF CAIRO</span>
+            <span className="px-2">|</span>Egypt
           </p>
           <p className="py-1 italic">Paramedic / Firefighter (2010 – 2019)</p>
           <ul className="list-disc list-outside px-7 py-1 leading-relaxed">

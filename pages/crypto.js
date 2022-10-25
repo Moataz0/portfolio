@@ -38,18 +38,10 @@ const crypto = () => {
             DOM&quot; package. This application was built using the Coin Gecko
             API.
           </p>
-          <a
-            href="https://github.com/fireclint/crypto-react-firebase"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="/" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
-          <a
-            href="https://cryptobase-yt.web.app/"
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="/" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
