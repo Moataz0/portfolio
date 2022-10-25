@@ -27,7 +27,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className="py-2">Clint Briley</h2>
+                <h2 className="py-2">Moataz Muhammed</h2>
                 <p>Front-End Developer</p>
                 <p className="py-4">
                   I am available for freelance or full-time positions. Contact
@@ -38,7 +38,7 @@ const Contact = () => {
                 <p className="uppercase pt-8">Connect With Me</p>
                 <div className="flex items-center justify-between py-4">
                   <a
-                    href="https://www.linkedin.com/in/clint-briley-50056920a/"
+                    href="https://www.linkedin.com/in/moataz-muhammed-0040882a/"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -47,7 +47,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href="https://github.com/fireclint"
+                    href="https://github.com/Moataz0"
                     target="_blank"
                     rel="noreferrer"
                   >
@@ -83,6 +83,7 @@ const Contact = () => {
                   <div className="flex flex-col">
                     <label className="uppercase text-sm py-2">Name</label>
                     <input
+                      required
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       name="name"
@@ -93,6 +94,7 @@ const Contact = () => {
                       Phone Number
                     </label>
                     <input
+                      required
                       className="border-2 rounded-lg p-3 flex border-gray-300"
                       type="text"
                       name="phone"
@@ -102,6 +104,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Email</label>
                   <input
+                    required
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="email"
                     name="email"
@@ -110,6 +113,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Subject</label>
                   <input
+                    required
                     className="border-2 rounded-lg p-3 flex border-gray-300"
                     type="text"
                     name="subject"
@@ -118,6 +122,7 @@ const Contact = () => {
                 <div className="flex flex-col py-2">
                   <label className="uppercase text-sm py-2">Message</label>
                   <textarea
+                    required
                     className="border-2 rounded-lg p-3 border-gray-300"
                     rows="10"
                     name="message"
