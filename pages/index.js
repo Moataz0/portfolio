@@ -1,6 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
-import Navbar from "../components/Navbar";
+import { About, Contact, Main, Navbar, Projects, Skills } from "../components";
 
 export default function Home() {
   return (
@@ -11,6 +11,11 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
+      <Main />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
     </div>
   );
 }

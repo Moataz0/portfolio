@@ -12,7 +12,7 @@ const Navbar = () => {
     setNav(!nav);
   };
   return (
-    <div className="fixed w-full h-2 shadow-xl z-[100]">
+    <div className="fixed w-full h-20 shadow-xl z-[100] ease-in-out duration-300">
       <div className="flex justify-between items-center w-full  px-2 2xl:px-16">
         <Image
           src="/../public/assets/navLogo.png"
@@ -49,7 +49,9 @@ const Navbar = () => {
       </div>
 
       <div
-        className={nav ? "fixed left-0 top-0 w-full h-screen bg-black/70" : ""}
+        className={
+          nav ? "md:hidden fixed left-0 top-0 w-full h-screen bg-black/70" : ""
+        }
       >
         <div
           className={
